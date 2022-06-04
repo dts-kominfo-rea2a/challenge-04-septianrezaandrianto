@@ -19,7 +19,7 @@ const createDate = (dateList, position) => {
     }
   }
 
-  return tempArray.join('-')
+  return tempArray.sort().join('-')
 };
 
 const getCreateDate=(tempArray,dateList) => {
